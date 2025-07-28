@@ -1,0 +1,26 @@
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffb347, #ffcc33 80%);
+    color: white;
+    padding: 20px;
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            margin-bottom: 10px;
+            a {
+                color: white;
+                text-decoration: none;
+                &.active {
+                    font-weight: bold;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
